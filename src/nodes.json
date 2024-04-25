@@ -1,0 +1,274 @@
+[
+    {
+        "id": 1622,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 17",
+        "x": 210.72494730475756,
+        "y": -319.6047037284352
+    },
+    {
+        "id": 1620,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 17",
+        "x": 125.01310707885963,
+        "y": -177.9838406984842
+    },
+    {
+        "id": 1618,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 17",
+        "x": 31.063037096466452,
+        "y": -324.6912517335267
+    },
+    {
+        "id": 1616,
+        "diffusion_output_heat": 0.003741074743259346,
+        "diffusion_input": 0.0,
+        "label": "Node 2",
+        "diffusion_output_rank": 5,
+        "x": 274.96012087383735,
+        "y": 156.7235032605042
+    },
+    {
+        "id": 1614,
+        "diffusion_output_heat": 3.2933696783803953e-06,
+        "diffusion_input": 0.0,
+        "label": "Node 6",
+        "diffusion_output_rank": 10,
+        "x": 509.6413675571825,
+        "y": 235.66480545370388
+    },
+    {
+        "id": 1612,
+        "diffusion_output_heat": 0.00012743750706937075,
+        "diffusion_input": 0.0,
+        "label": "Node 5",
+        "diffusion_output_rank": 7,
+        "x": 323.7811923186023,
+        "y": 234.03990799288817
+    },
+    {
+        "id": 1610,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 9",
+        "x": -182.8507652591832,
+        "y": -108.34227282206528
+    },
+    {
+        "id": 1608,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 9",
+        "x": -360.51874337363654,
+        "y": 198.3508952147831
+    },
+    {
+        "id": 1606,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 9",
+        "x": -204.19254392960096,
+        "y": -25.8958725288378
+    },
+    {
+        "id": 1604,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 9",
+        "x": -155.70892033756547,
+        "y": 159.25340816622526
+    },
+    {
+        "id": 1602,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 9",
+        "x": -201.69492387702246,
+        "y": -198.1839105244536
+    },
+    {
+        "id": 1600,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 9",
+        "x": -90.36701690798314,
+        "y": -2.1530704791560167
+    },
+    {
+        "id": 1598,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 16",
+        "x": 154.32131493721087,
+        "y": 196.99117502957805
+    },
+    {
+        "id": 1596,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 15",
+        "x": 267.5670322951982,
+        "y": -172.6761237016921
+    },
+    {
+        "id": 1594,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 14",
+        "x": 339.4021651922138,
+        "y": -262.229889606835
+    },
+    {
+        "id": 1592,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 13",
+        "x": -201.0896792791033,
+        "y": 57.046878641327794
+    },
+    {
+        "id": 1590,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 12",
+        "x": -453.16666903598315,
+        "y": -24.063122109179112
+    },
+    {
+        "id": 1588,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 11",
+        "x": -54.44223498546113,
+        "y": 91.13678837560546
+    },
+    {
+        "id": 1586,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 10",
+        "x": -152.712256776609,
+        "y": 272.85651884238627
+    },
+    {
+        "id": 1584,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 7",
+        "diffusion_output_rank": 13,
+        "x": -276.29220406797083,
+        "y": -304.66177675000836
+    },
+    {
+        "id": 1582,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 6",
+        "diffusion_output_rank": 14,
+        "x": 8.060481774170855,
+        "y": -174.46098732517882
+    },
+    {
+        "id": 1580,
+        "diffusion_output_heat": 0.0,
+        "diffusion_input": 0.0,
+        "label": "Node 5",
+        "diffusion_output_rank": 15,
+        "x": -121.5567641146495,
+        "y": -271.10431867407254
+    },
+    {
+        "id": 1578,
+        "diffusion_output_heat": 0.07844525637842259,
+        "diffusion_input": 0.0,
+        "label": "Node 2",
+        "diffusion_output_rank": 3,
+        "x": 24.1828133398489,
+        "y": 237.002225318827
+    },
+    {
+        "id": 1576,
+        "diffusion_output_heat": 3.229305519200878e-06,
+        "diffusion_input": 0.0,
+        "label": "Node 9",
+        "diffusion_output_rank": 11,
+        "x": 565.1417099658963,
+        "y": -174.82303991325594
+    },
+    {
+        "id": 1574,
+        "diffusion_output_heat": 3.229305519200878e-06,
+        "diffusion_input": 0.0,
+        "label": "Node 8",
+        "diffusion_output_rank": 12,
+        "x": 661.1483219490395,
+        "y": -48.056689830116795
+    },
+    {
+        "id": 1572,
+        "diffusion_output_heat": 0.00012433634575301493,
+        "diffusion_input": 0.0,
+        "label": "Node 7",
+        "diffusion_output_rank": 8,
+        "x": 478.5832671222976,
+        "y": -42.20497086550495
+    },
+    {
+        "id": 1570,
+        "diffusion_output_heat": 3.2933696783803953e-06,
+        "diffusion_input": 0.0,
+        "label": "Node 6",
+        "diffusion_output_rank": 10,
+        "x": 559.0916706099832,
+        "y": 96.67463095174898
+    },
+    {
+        "id": 1568,
+        "diffusion_output_heat": 0.00012743750706937075,
+        "diffusion_input": 0.0,
+        "label": "Node 5",
+        "diffusion_output_rank": 7,
+        "x": 401.85167883441596,
+        "y": 102.55860715179656
+    },
+    {
+        "id": 1566,
+        "diffusion_output_heat": 0.003619904715855516,
+        "diffusion_input": 0.0,
+        "label": "Node 4",
+        "diffusion_output_rank": 6,
+        "x": 302.07358952401387,
+        "y": -73.04139706356015
+    },
+    {
+        "id": 1564,
+        "diffusion_output_heat": 0.00012433634575301493,
+        "diffusion_input": 0.0,
+        "label": "Node 3",
+        "diffusion_output_rank": 9,
+        "x": 409.6223259075323,
+        "y": -144.78282240884243
+    },
+    {
+        "id": 1562,
+        "diffusion_output_heat": 0.003741074743259346,
+        "diffusion_input": 0.0,
+        "label": "Node 2",
+        "diffusion_output_rank": 5,
+        "x": 311.378002348871,
+        "y": 69.7670642763223
+    },
+    {
+        "id": 1560,
+        "diffusion_output_heat": 0.07169335751514305,
+        "diffusion_input": 0.0,
+        "label": "Findings",
+        "diffusion_output_rank": 4,
+        "x": 105.7542186290565,
+        "y": 15.349024367335886
+    }
+]

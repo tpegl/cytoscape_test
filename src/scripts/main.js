@@ -1,29 +1,22 @@
-$(function() {
-    "use strict";
-
-    function e(e, n) {
-        for (var t = n.length, o = 0; t >= o; o++) {
-            var s = n[o].title;
-            if (s === e) return n[o]
-        }
-        return null
-    }
-    var n = "#cy",
-        network = networks[Object.keys(networks)[0]],
-        style = styles[0];
-    $(n).cytoscape({
-        layout: {
-            name: "preset",
-            padding: 10
+const nodeData = {
+    "nodes": [
+        {
+            "id": 1622, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 17", "x": 210.72494730475756, "y": -319.6047037284352
         },
-        boxSelectionEnabled: !0,
-        ready: function() {
-            window.cy = this, 
-                    cy.load(network.elements), console.log(network);
-                    console.log(style);
-                    var o = e("default", style);
-                    null === o && (o = style), cy.style().fromJson(o.style).update()
-                
-        }
-    })
-});
+        {
+            "id": 1620, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 17", "x": 125.01310707885963, "y": -177.9838406984842
+        },
+        {
+            "id": 1618, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 17", "x": 31.063037096466452, "y": -324.6912517335267
+        },
+        {
+            "id": 1616, "diffusion_output_heat": 0.003741074743259346, "diffusion_input": 0.0, "label": "Node 2", "diffusion_output_rank": 5, "x": 274.96012087383735, "y": 156.7235032605042
+        },
+        {
+            "id": 1614, "diffusion_output_heat": 3.2933696783803953e-06, "diffusion_input": 0.0, "label": "Node 6", "diffusion_output_rank": 10, "x": 509.6413675571825, "y": 235.66480545370388
+        },
+        { 
+            "id": 1612, "diffusion_output_heat": 0.00012743750706937075, "diffusion_input": 0.0, "label": "Node 5", "diffusion_output_rank": 7, "x": 323.7811923186023, "y": 234.03990799288817
+        },
+        { "id": 1610, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 9", "x": -182.8507652591832, "y": -108.34227282206528 }, { "id": 1608, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 9", "x": -360.51874337363654, "y": 198.3508952147831 }, { "id": 1606, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 9", "x": -204.19254392960096, "y": -25.8958725288378 }, { "id": 1604, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 9", "x": -155.70892033756547, "y": 159.25340816622526 }, { "id": 1602, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 9", "x": -201.69492387702246, "y": -198.1839105244536 }, { "id": 1600, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 9", "x": -90.36701690798314, "y": -2.1530704791560167 }, { "id": 1598, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 16", "x": 154.32131493721087, "y": 196.99117502957805 }, { "id": 1596, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 15", "x": 267.5670322951982, "y": -172.6761237016921 }, { "id": 1594, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 14", "title": "I was the sole engineer and I had to set up the singularity. All good, I'd done it a lot, but never solo. Seemed like all systems were fine. However, one of the emitters was a bit too far from the local power and wasn't running. 10 minutes pass, and I hear calls that the singularity was loose. I panicked; it wasn't intentional. It tore through mechlab, botany, and part of the bar. I thought we were going to shuttle call but, to my surprise, the station decided to stay and we worked together to fix it. The admin did clarify with me if it was intentional, and I confirmed it wasn't; honest mistake!", "x": 339.4021651922138, "y": -262.229889606835 }, { "id": 1592, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 13", "x": -201.0896792791033, "y": 57.046878641327794 }, { "id": 1590, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 12", "x": -453.16666903598315, "y": -24.063122109179112 }, { "id": 1588, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 11", "x": -54.44223498546113, "y": 91.13678837560546 }, { "id": 1586, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 10", "x": -152.712256776609, "y": 272.85651884238627 }, { "id": 1584, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 7", "diffusion_output_rank": 13, "x": -276.29220406797083, "y": -304.66177675000836 }, { "id": 1582, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 6", "diffusion_output_rank": 14, "x": 8.060481774170855, "y": -174.46098732517882 }, { "id": 1580, "diffusion_output_heat": 0.0, "diffusion_input": 0.0, "label": "Node 5", "diffusion_output_rank": 15, "x": -121.5567641146495, "y": -271.10431867407254 }, { "id": 1578, "diffusion_output_heat": 0.07844525637842259, "diffusion_input": 0.0, "label": "Node 2", "diffusion_output_rank": 3, "x": 24.1828133398489, "y": 237.002225318827 }, { "id": 1576, "diffusion_output_heat": 3.229305519200878e-06, "diffusion_input": 0.0, "label": "Node 9", "diffusion_output_rank": 11, "x": 565.1417099658963, "y": -174.82303991325594 }, { "id": 1574, "diffusion_output_heat": 3.229305519200878e-06, "diffusion_input": 0.0, "label": "Node 8", "diffusion_output_rank": 12, "x": 661.1483219490395, "y": -48.056689830116795 }, { "id": 1572, "diffusion_output_heat": 0.00012433634575301493, "diffusion_input": 0.0, "label": "Node 7", "diffusion_output_rank": 8, "x": 478.5832671222976, "y": -42.20497086550495 }, { "id": 1570, "diffusion_output_heat": 3.2933696783803953e-06, "diffusion_input": 0.0, "label": "Node 6", "diffusion_output_rank": 10, "x": 559.0916706099832, "y": 96.67463095174898 }, { "id": 1568, "diffusion_output_heat": 0.00012743750706937075, "diffusion_input": 0.0, "label": "Node 5", "diffusion_output_rank": 7, "x": 401.85167883441596, "y": 102.55860715179656 }, { "id": 1566, "diffusion_output_heat": 0.003619904715855516, "diffusion_input": 0.0, "label": "Node 4", "diffusion_output_rank": 6, "x": 302.07358952401387, "y": -73.04139706356015 }, { "id": 1564, "diffusion_output_heat": 0.00012433634575301493, "diffusion_input": 0.0, "label": "Node 3", "diffusion_output_rank": 9, "x": 409.6223259075323, "y": -144.78282240884243 }, { "id": 1562, "diffusion_output_heat": 0.003741074743259346, "diffusion_input": 0.0, "label": "Node 2", "diffusion_output_rank": 5, "x": 311.378002348871, "y": 69.7670642763223 }, { "id": 1560, "diffusion_output_heat": 0.07169335751514305, "diffusion_input": 0.0, "label": "Findings", "diffusion_output_rank": 4, "x": 105.7542186290565, "y": 15.349024367335886 }], "edges": [{ "id": 1702, "from": 1622, "to": 1618 }, { "id": 1700, "from": 1620, "to": 1622 }, { "id": 1698, "from": 1616, "to": 1612 }, { "id": 1696, "from": 1616, "to": 1560 }, { "id": 1694, "from": 1614, "to": 1612 }, { "id": 1692, "from": 1608, "to": 1586 }, { "id": 1690, "from": 1604, "to": 1586 }, { "id": 1688, "from": 1602, "to": 1580 }, { "id": 1686, "from": 1602, "to": 1590 }, { "id": 1684, "from": 1602, "to": 1560 }, { "id": 1682, "from": 1600, "to": 1606 }, { "id": 1680, "from": 1598, "to": 1560 }, { "id": 1678, "from": 1598, "to": 1578 }, { "id": 1676, "from": 1596, "to": 1560 }, { "id": 1674, "from": 1594, "to": 1596 }, { "id": 1672, "from": 1594, "to": 1576 }, { "id": 1670, "from": 1592, "to": 1588 }, { "id": 1668, "from": 1592, "to": 1606 }, { "id": 1666, "from": 1592, "to": 1604 }, { "id": 1664, "from": 1590, "to": 1610 }, { "id": 1662, "from": 1590, "to": 1606 }, { "id": 1660, "from": 1590, "to": 1608 }, { "id": 1658, "from": 1588, "to": 1560 }, { "id": 1656, "from": 1584, "to": 1580 }, { "id": 1654, "from": 1582, "to": 1620 }, { "id": 1652, "from": 1582, "to": 1618 }, { "id": 1650, "from": 1582, "to": 1560 }, { "id": 1648, "from": 1582, "to": 1580 }, { "id": 1646, "from": 1578, "to": 1560 }, { "id": 1644, "from": 1576, "to": 1564 }, { "id": 1642, "from": 1572, "to": 1574 }, { "id": 1640, "from": 1572, "to": 1566 }, { "id": 1638, "from": 1568, "to": 1562 }, { "id": 1636, "from": 1568, "to": 1570 }, { "id": 1634, "from": 1564, "to": 1566 }, { "id": 1632, "from": 1562, "to": 1560 }, { "id": 1630, "from": 1560, "to": 1610 }, { "id": 1628, "from": 1560, "to": 1600 }, { "id": 1626, "from": 1560, "to": 1586 }, { "id": 1624, "from": 1560, "to": 1566 }]
+}
